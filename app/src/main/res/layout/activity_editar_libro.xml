@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditarLibro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="9dp"
+        android:orientation="vertical">
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="     EDITAR LIBRO"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#A80F04"/>
+
+        <ImageView
+            android:id="@+id/tvImagen"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="TITULO:"
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#262627"/>
+
+            <EditText
+                android:id="@+id/cTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_marginTop="10dp"
+                android:maxLength="100"
+                android:layout_weight="1"
+                android:hint="titulo"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="RESUMEN:"
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#262627"/>
+
+            <EditText
+                android:id="@+id/cResumen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_marginTop="10dp"
+                android:maxLength="100"
+                android:layout_weight="1"
+                android:hint="resumen"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="CARATULA"
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#262627"/>
+
+            <EditText
+                android:id="@+id/cCaratulaImag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_marginTop="10dp"
+                android:maxLength="100"
+                android:layout_weight="1"
+                android:hint="url"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp">
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/editGuardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GUARDAR" />
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

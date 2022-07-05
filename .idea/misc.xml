@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/UPN -2022-1/VIDEOJUEGOS/ANDROIDJAVA/ExamenFinal/app/src/main/res/layout/activity_crear_libro.xml" value="0.26875" />
+        <entry key="..\:/UPN -2022-1/VIDEOJUEGOS/ANDROIDJAVA/ExamenFinal/app/src/main/res/layout/activity_editar_libro.xml" value="0.25" />
+        <entry key="..\:/UPN -2022-1/VIDEOJUEGOS/ANDROIDJAVA/ExamenFinal/app/src/main/res/layout/activity_lista_favoritos.xml" value="0.26875" />
+        <entry key="..\:/UPN -2022-1/VIDEOJUEGOS/ANDROIDJAVA/ExamenFinal/app/src/main/res/layout/activity_lista_libros.xml" value="0.25" />
+        <entry key="..\:/UPN -2022-1/VIDEOJUEGOS/ANDROIDJAVA/ExamenFinal/app/src/main/res/layout/activity_main.xml" value="0.26875" />
+        <entry key="..\:/UPN -2022-1/VIDEOJUEGOS/ANDROIDJAVA/ExamenFinal/app/src/main/res/layout/activity_ver_detalle.xml" value="0.25" />
+        <entry key="..\:/UPN -2022-1/VIDEOJUEGOS/ANDROIDJAVA/ExamenFinal/app/src/main/res/layout/mini__layout.xml" value="0.26875" />
+        <entry key="..\:/UPN -2022-1/VIDEOJUEGOS/ANDROIDJAVA/ExamenFinal/app/src/main/res/layout/mini_favorito.xml" value="0.26875" />
+        <entry key="..\:/UPN -2022-1/VIDEOJUEGOS/ANDROIDJAVA/ExamenFinal/app/src/main/res/layout/mini_layout.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

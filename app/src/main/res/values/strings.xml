@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ExamenFinal</string>
+    <string name="todos">TODOS</string>
+    <string name="favoritos">FAVORITOS</string>
+</resources>
